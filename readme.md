@@ -32,7 +32,7 @@ And Finally validate your eloquent object by using validateObject(). Best way to
 
 Below is a example. Let User be the eloquent model which you want to validate.
 
-    class User extends UserBaseModel
+    class User extends Model
     {
 	//------------------ Define fillables and rest to your requirments -------------------------
         //------------------ Validations ---------------------------------
